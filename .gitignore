@@ -3,3 +3,15 @@ node_modules
 /node_modules
 ./node_modules
 ./node_modules/
+
+# npm
+npm-debug.log
+npm-debug.log.*
+
+# ENV 
+.env
+.env.*
+/.env
+./.env
+./env 
+./env.*
