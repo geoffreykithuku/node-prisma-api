@@ -21,6 +21,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.0",
     "body-parse": "^0.1.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
