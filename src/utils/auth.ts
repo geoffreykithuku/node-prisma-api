@@ -37,10 +37,9 @@ export const protect = (req, res, next) => {
 };
 
 export const comparePasswords = (password, hashedPassword) => {
-  return bcrypt.compareSync(password, hashedPassword);
+  return bcrypt.compare(password, hashedPassword);
 };
 
 export const hashPassword = (password) => {
-    return bcrypt.hashSync(password);
+  return bcrypt.hash(password);
 };
-    
